@@ -1,0 +1,20 @@
+
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+backend/.env
+frontend/.env
+
+# Build output
+frontend/dist/
+
+# Vercel configuration
+.vercel/
+
+# Debug logs
+npm-debug.log*
