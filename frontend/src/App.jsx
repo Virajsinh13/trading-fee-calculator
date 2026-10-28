@@ -1,8 +1,11 @@
 
-import { useState } from 'react'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
 
-const API_URL = "http://localhost:5000/api/calculate-fee";
+
+const API_URL =
+  `${import.meta.env.VITE_API_URL || "http://localhost:5000"}/api/calculate-fee`;
+
 
 function App() {
   const [tradeAmount, setTradeAmount] = useState("");
